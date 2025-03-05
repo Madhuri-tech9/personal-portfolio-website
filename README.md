@@ -20,8 +20,9 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 - JavaScript
 
 ## Live Link
- - Check out the live demo of this project: 
-   https://madhuri-tech9.github.io/personal-portfolio-website/
+
+- Check out the live demo of this project: 
+  https://madhuri-tech9.github.io/personal-portfolio-website/
 
 ## How to Use
 
