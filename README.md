@@ -21,7 +21,7 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 
 ## Live Link
  - Check out the live demo of this project: 
-[Live Link] https://madhuri-tech9.github.io/personal-portfolio-website/
+   https://madhuri-tech9.github.io/personal-portfolio-website/
 
 ## How to Use
 
