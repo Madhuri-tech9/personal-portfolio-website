@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--box-icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#" class="logo"> My Portfolio</a>
+        <div id="menu-icon" class="bx bx-menu"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home Section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Madhuri</h1>
+            <h2 class="animated-text">Frontend Developer</h2>
+            <div class="btn-box">
+                <a href="images/Madhuri.pdf" class="btn" download>Download Resume</a>
+                <a href="images/Madhuri.pdf" class="btn" target="_blank">View Resume</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/Front-end developer.jpg" alt="Madhuri">
+        </div>
+
+        <div class="home-imgHover"></div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <p>
+                Hi, my name is Madhuri, and I'm a passionate frontend developer. I completed my Bachelor of Technology
+                in Computer Science and Engineering from DRK College of Engineering and Technology, which is affiliated
+                with JNTUH.To enhance my skills, I pursued specialized courses in HTML, CSS, JavaScript, Oracle, and
+                Core Java. These learning experiences equipped me with the essential tools and knowledge needed to
+                create responsive and dynamic web interfaces. This internship marks my first hands-on experience in a
+                professional environment, and I’m thrilled to put my skills into practice. I am excited to learn, grow,
+                and contribute to real-world projects.I am eager to collaborate with experienced professionals, learn
+                from their expertise, and contribute my creativity and problem-solving abilities.
+            </p>
+            <!-- Know More Button -->
+            <div class="btn-box btns">
+                <a href="#" class="btn know-more-btn">Know More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-gallery">
+            <!-- Project 1 - Personal Portfolio Website -->
+            <div class="project-item">
+                <h3>Personal Portfolio Website</h3>
+                <p>This is my personal portfolio website, where I showcase my skills, projects, and resume. It was built
+                    using HTML, CSS, and JavaScript. The website features smooth scrolling, responsive design, and an
+                    interactive contact form with validation.</p>
+                <ul>
+                    <li><strong>Technologies:</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Features:</strong> Responsive design, smooth scrolling navigation, contact form with
+                        validation</li>
+                    <button class="btn open-modal-btn" data-modal="modal1">Open Modal</button>
+                </ul>
+            </div>
+
+            <!-- Project 2 - Chat Application -->
+            <div class="project-item">
+                <h3>Chat Application</h3>
+                <p>This chat application allows users to send real-time messages. It was developed using Html,Css,JavaScript,
+                    Node.js, and websockets for real-time communication. The app supports multiple users and has a
+                    responsive design.</p>
+                <ul>
+                    <li><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, Websockets</li>
+                    <li><strong>Features:</strong> Real-time chat, multiple users, responsive design</li>
+                    <button class="btn open-modal-btn" data-modal="modal2">Open Modal</button>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 1 - Modal for Personal Portfolio Website -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Personal Portfolio Website</h2>
+            <img src="images/personal portfolio.png" alt="Personal Portfolio Website">
+        </div>
+    </div>
+
+    <!-- Project 2 - Modal for Chat Application -->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Chat Application</h2>
+            <img src="images/chat-app.png" alt="Chat Application">
+        </div>
+    </div>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form id="contact-form" action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" id="mobile" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="subject" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn know-more-btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 Madhuri. All Rights Reserved.</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/madhuri-pasupala-393460295/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Madhuri-tech9" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://x.com/madhuri930" target="_blank"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
