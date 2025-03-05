@@ -19,19 +19,9 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 - CSS
 - JavaScript
 
-## Prerequisites
-
-- A web browser is required to view the portfolio site.
-
-## Installation Steps
-
-- Clone the repository:
-  git clone https://github.com/your-username/your-repository.git
-
-- Navigate to the project folder:
-  cd your-repository
-
-- Open the index.html file in your preferred web browser.
+## Live Link
+ - Check out the live demo of this project: 
+[Live Link] https://madhuri-tech9.github.io/personal-portfolio-website/
 
 ## How to Use
 
